@@ -13,7 +13,7 @@ cls
 echo.
 echo        ######################################################
 echo        #                                                    #
-echo        #        Section Install Winstore Rouge Gorge        #
+echo        #        Section Install Winstore ##### #####        #
 echo        #                                                    #
 echo        ######################################################
 cls
@@ -22,7 +22,7 @@ echo.
 echo.
 
 rem L'utilisateur choisit sa typologie
-set /p CHOICE=Selectionner la version client � descendre :
+set /p CHOICE=Selectionner la version client a descendre :
 for /f "tokens=1,2,3,4 delims=," %%i in (%Source%\path.txt) do if %CHOICE%==%%i set Enseigne=%%j&&set MS=%%k&&set PathPatch=%%l
 
 rem On teste la presence (ou pas) de la derniere version installee
