@@ -12,3 +12,7 @@ Différents scripts écrits dans le cadre d'une mission sur MSSQL
 
 ### 3- IBM
 Différents scripts écrits dans le cadre d'une mission chez IBM pour automatiser la gestion des erreurs
+
+### 4- DOS
+Script permettant à un client de changer automatiquement d'environnement
+- [script](WINSTORE/winstore_install.bat)
